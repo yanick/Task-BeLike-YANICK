@@ -94,11 +94,11 @@ Effortlessly import CPAN distros in a Git repository.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.1.0
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.1.0';
 
 =head1 AUTHOR
 
