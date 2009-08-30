@@ -1,0 +1,9 @@
+distrelease.yml
+\.git
+\.gitignore
+_build
+^Build$
+MANIFEST\.SKIP
+\.tar\.gz$
+\.swp$
+^Task-BeLike-YANICK
