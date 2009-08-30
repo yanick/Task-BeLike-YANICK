@@ -1,2 +1,5 @@
 META.yml
 Makefile.PL
+Build
+_build
+*.tar.gz
