@@ -1,0 +1,7 @@
+Changes
+lib/Task/BeLike/YANICK.pm
+Makefile.PL
+MANIFEST
+README
+t/00-load.t
+META.yml
