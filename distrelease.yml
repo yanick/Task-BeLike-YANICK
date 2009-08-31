@@ -1,7 +1,2 @@
-checks:
-    - VCS::WorkingDirClean
-    - Manifest
-actions:
-    - GenerateDistribution
+steps:
     - CPANUpload
-    - Github
