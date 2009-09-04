@@ -76,6 +76,11 @@ My templating system of choice.
 I prefer L<HTML::Mason>, but C<TT> is used in an awful lot 
 of applications.
 
+=item L<WWW::Mechanize>
+
+A must for testing and small web hacks.  Plus, this module name always 
+reminds me of I<Battletech>.
+
 
 =back
 
