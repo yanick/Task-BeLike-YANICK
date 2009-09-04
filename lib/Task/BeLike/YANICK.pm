@@ -89,8 +89,17 @@ Effortlessly import CPAN distros in a Git repository.
 
 =back
 
-=for end_install
+=head2 Testing
 
+=over
+
+=item L<Test::Class>
+
+Add some class to your testing.
+
+=back
+
+=for end_install
 
 =head1 VERSION
 
