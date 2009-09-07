@@ -104,6 +104,26 @@ Add some class to your testing.
 
 =back
 
+=head2 Development
+
+=over
+
+=item L<autodie>
+
+Because my minions should know that their missions should
+always either end in success, or death...
+
+Part of the core as of 5.10.1.
+
+=item L<Perl::Tidy>
+
+Because tidy code is so easier to read.
+
+=item L<Perl::Critic>
+
+
+=back
+
 =for end_install
 
 =head1 VERSION
