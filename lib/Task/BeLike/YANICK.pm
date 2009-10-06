@@ -16,6 +16,12 @@ Task::BeLike::YANICK - like Yanick? Be like Yanick!
 This L<Task> module installs the modules that I use on
 a regular basis.
 
+Wait, there is more! 
+It can also B<update> the modules that I use on a regular basis! 
+To do that, do
+
+    TASK_UPGRADE=1 cpan -f Task::BeLike::YANICK
+
 =head1 MODULES INSTALLED BY THIS TASK
 
 =head2 Object-Oriented Frameworks

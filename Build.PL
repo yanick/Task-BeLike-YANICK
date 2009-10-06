@@ -1,9 +1,16 @@
-use 5.006; #warnings.pm;
+use 5.10.0;
 
 use strict;
 use warnings;
 
+use Getopt::Long;
 use Module::Build;
+
+GetOptions( 
+    upgrade => \my $opt_upgrade,
+);
+
+$opt_upgrade ||= $ENV{TASK_UPGRADE};
 
 my $builder = Module::Build->new(
     module_name       => 'Task::BeLike::YANICK',
@@ -38,8 +45,14 @@ sub get_requirements {
         next unless /^=item \s+/x;
 
         my ( $module, $version ) = split ' ' => $';
-
         $module =~ s/^ L< (.*?) > $/$1/x;
+
+        if ( $opt_upgrade and not $version ) {
+            require CPANPLUS::Backend;
+            state $cb = CPANPLUS::Backend->new;
+
+            $version = $cb->module_tree( $module )->package_version;
+        }
 
         $requirements{$module} = $version || 0;
     }
