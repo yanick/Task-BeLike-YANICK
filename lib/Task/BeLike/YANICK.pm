@@ -108,11 +108,22 @@ Effortlessly import CPAN distros in a Git repository.
 
 Add some class to your testing.
 
+=item L<Test::Perl::Critic>
+
+
+=item L<Test::Perl::Critic::Progressive>
+
+Raise the bar, millimeter by millimeter.
+
 =back
 
 =head2 Development
 
 =over
+
+=item L<Carp::Always>
+
+"You're going to tell me what you know. EVERYTHING you know..."
 
 =item L<autodie>
 
