@@ -143,6 +143,11 @@ Because tidy code is so easier to read.
 Which version of I<Foo::Bar> am I running, and in which lib directory
 is it hidding?
 
+=item L<Pod::POM::Web>
+
+Because search.cpan.org doesn't deserved to be poked every
+five minutes.
+
 =back
 
 =head2 CPAN
