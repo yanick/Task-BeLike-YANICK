@@ -144,6 +144,23 @@ CPAN asks for it, so there it is.
 
 =back
 
+=head2 Dist::Zilla
+
+=over
+
+=item L<Dist::Zilla>
+
+Rooooar!
+
+=item L<Dist::Zilla::Plugin::Git>
+
+Git-related Dist::Zilla actions.
+
+=item L<Dist::Zilla::Plugin::GithubMeta>
+
+Github actions.
+
+=back
 
 =for end_install
 
