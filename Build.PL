@@ -6,6 +6,9 @@ use warnings;
 use Getopt::Long;
 use Module::Build;
 
+# no need to waste testers' time
+exit 0 if $ENV{AUTOMATED_TESTING};
+
 GetOptions( 
     upgrade => \my $opt_upgrade,
 );
