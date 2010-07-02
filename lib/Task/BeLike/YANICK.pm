@@ -127,8 +127,23 @@ Because tidy code is so easier to read.
 
 =item L<Perl::Critic>
 
+=item L<Module::Which>
+
+Which version of I<Foo::Bar> am I running, and in which lib directory
+is it hidding?
 
 =back
+
+=head2 CPAN
+
+=over
+
+=item L<CPAN::SQLite>
+
+CPAN asks for it, so there it is.
+
+=back
+
 
 =for end_install
 
