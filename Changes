@@ -1,6 +1,8 @@
 # Revision history for Task-BeLike-YANICK
 
 {{$NEXT}}
+
+0.4.0     2010-07-03 12:39:01 America/Montreal
     * add Pod::POM::Web
     * add Carp::Always
 
