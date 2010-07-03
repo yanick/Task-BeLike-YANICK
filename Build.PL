@@ -1,48 +1,32 @@
-use 5.006; #warnings.pm;
 
 use strict;
 use warnings;
 
-use Module::Build;
+use Module::Build 0.3601;
+use lib 'inc'; use MyBuild;
 
-my $builder = Module::Build->new(
-    module_name       => 'Task::BeLike::YANICK',
-    license           => 'perl',
-    dist_author       => 'Yanick Champoux <yanick@cpan.org>',
-    dist_version_from => 'lib/Task/BeLike/YANICK.pm',
-    requires          => {
-        get_requirements( 'lib/Task/BeLike/YANICK.pm' )
-    },
-    build_requires => {
-        'Module::Build'       => 0,
-    },
-    create_makefile_pl => 'passthrough',
+my %module_build_args = (
+  'build_requires' => {
+    'Module::Build' => '0.3601'
+  },
+  'configure_requires' => {
+    'Module::Build' => '0.3601'
+  },
+  'dist_abstract' => 'like Yanick? Be like Yanick!',
+  'dist_author' => [
+    'Yanick Champoux <yanick@cpan.org>'
+  ],
+  'dist_name' => 'Task-BeLike-YANICK',
+  'dist_version' => '0.3.0',
+  'license' => 'perl',
+  'module_name' => 'Task::BeLike::YANICK',
+  'recommends' => {},
+  'recursive_test_files' => 1,
+  'requires' => {},
+  'script_files' => []
 );
 
-$builder->create_build_script();
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+my $build = MyBuild->new(%module_build_args);
 
-sub get_requirements {
-    my $file = shift;
-
-    open my $pod_fh, '<', $file or die;
-
-    my %requirements;
-
-    while ( <$pod_fh> ) {
-        chomp;
-
-        next unless /^=for install/../^=for end_install/;
-
-        next unless /^=item \s+/x;
-
-        my ( $module, $version ) = split ' ' => $';
-
-        $module =~ s/^ L< (.*?) > $/$1/x;
-
-        $requirements{$module} = $version || 0;
-    }
-
-    return %requirements;
-}
+$build->create_build_script;

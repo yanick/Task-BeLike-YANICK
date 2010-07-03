@@ -1,4 +1,7 @@
 package Task::BeLike::YANICK;
+BEGIN {
+  $Task::BeLike::YANICK::VERSION = '0.3.0';
+}
 
 use warnings;
 use strict;
@@ -6,6 +9,10 @@ use strict;
 =head1 NAME
 
 Task::BeLike::YANICK - like Yanick? Be like Yanick!
+
+=head1 VERSION
+
+version 0.3.0
 
 =head1 SYNOPSIS
 
@@ -15,6 +22,12 @@ Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 This L<Task> module installs the modules that I use on
 a regular basis.
+
+Wait, there is more! 
+It can also B<update> the modules that I use on a regular basis! 
+To do that, do
+
+    TASK_UPGRADE=1 cpan -f Task::BeLike::YANICK
 
 =head1 MODULES INSTALLED BY THIS TASK
 
@@ -121,18 +134,44 @@ Because tidy code is so easier to read.
 
 =item L<Perl::Critic>
 
+=item L<Module::Which>
+
+Which version of I<Foo::Bar> am I running, and in which lib directory
+is it hidding?
+
+=back
+
+=head2 CPAN
+
+=over
+
+=item L<CPAN::SQLite>
+
+CPAN asks for it, so there it is.
+
+=back
+
+=head2 Dist::Zilla
+
+=over
+
+=item L<Dist::Zilla>
+
+Rooooar!
+
+=item L<Dist::Zilla::Plugin::Git>
+
+Git-related Dist::Zilla actions.
+
+=item L<Dist::Zilla::Plugin::GithubMeta>
+
+Github actions.
 
 =back
 
 =for end_install
 
-=head1 VERSION
-
-Version 0.2.0
-
 =cut
-
-our $VERSION = '0.2.0';
 
 =head1 AUTHOR
 

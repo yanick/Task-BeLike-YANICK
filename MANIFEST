@@ -1,8 +1,9 @@
 Build.PL
 Changes
-lib/Task/BeLike/YANICK.pm
-Makefile.PL
+LICENSE
 MANIFEST
 META.yml
 README
+inc/MyBuild.pm
+lib/Task/BeLike/YANICK.pm
 t/00-load.t

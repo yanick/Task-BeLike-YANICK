@@ -1,5 +1,13 @@
 # Revision history for Task-BeLike-YANICK
 
+Program fragment delivered error ``Missing right curly or square bracket at template line 3, at end of line
+syntax error at template line 3, at EOF''}
+    * add ability to upgrade dependencies with TASK_UPGRADE
+    * abort build for automated testing
+    * add Dist::Zilla modules
+    * add Module::Which
+    * dist::zilify
+
 version: 0.2.0
 date:    Mon Sep 7 2009
 changes:
