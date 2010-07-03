@@ -1,13 +1,18 @@
+package MyBuild;
+
 use 5.10.0;
 
 use strict;
 use warnings;
 
 use Getopt::Long;
-use Module::Build;
+
+use base qw/ Module::Build /;
 
 # no need to waste testers' time
-exit 0 if $ENV{AUTOMATED_TESTING};
+say "automated testing detected, aborting build" and exit 0 
+    if $ENV{AUTOMATED_TESTING};
+
 
 GetOptions( 
     upgrade => \my $opt_upgrade,
@@ -15,21 +20,16 @@ GetOptions(
 
 $opt_upgrade ||= $ENV{TASK_UPGRADE};
 
-my $builder = Module::Build->new(
-    module_name       => 'Task::BeLike::YANICK',
-    license           => 'perl',
-    dist_author       => 'Yanick Champoux <yanick@cpan.org>',
-    dist_version_from => 'lib/Task/BeLike/YANICK.pm',
-    requires          => {
-        get_requirements( 'lib/Task/BeLike/YANICK.pm' )
-    },
-    build_requires => {
-        'Module::Build'       => 0,
-    },
-    create_makefile_pl => 'passthrough',
-);
+sub new {
+    my ( $self, %args ) = @_;
 
-$builder->create_build_script();
+    my %extra = get_requirements( 'lib/Task/BeLike/YANICK.pm' );
+
+    $args{requires}{$_} = $extra{$_} for keys %extra;
+
+    return $self->SUPER::new( %args );
+}
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -62,3 +62,5 @@ sub get_requirements {
 
     return %requirements;
 }
+
+1;
