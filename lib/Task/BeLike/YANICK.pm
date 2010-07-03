@@ -164,13 +164,7 @@ Github actions.
 
 =for end_install
 
-=head1 VERSION
-
-Version 0.1.0
-
 =cut
-
-our $VERSION = '0.1.0';
 
 =head1 AUTHOR
 

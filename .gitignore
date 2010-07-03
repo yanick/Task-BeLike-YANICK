@@ -5,3 +5,4 @@ _build
 *.tar.gz
 *.swp
 Task-BeLike-YANICK*
+blib

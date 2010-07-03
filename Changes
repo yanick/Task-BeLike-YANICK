@@ -1,6 +1,20 @@
 # Revision history for Task-BeLike-YANICK
 
-version: 0.01
-date:    Sat Aug 22 22:13:20 2009
+{{{$NEXT}}}
+    * add ability to upgrade dependencies with TASK_UPGRADE
+    * abort build for automated testing
+    * add Dist::Zilla modules
+    * add Module::Which
+    * dist::zilify
+
+version: 0.2.0
+date:    Mon Sep 7 2009
+changes:
+- Added Development section
+- Added Testing section
+- Added WWW::Mechanize to Web Development section
+
+version: 0.1.0
+date:    Sat Aug 22 2009
 changes:
 - Initial release
