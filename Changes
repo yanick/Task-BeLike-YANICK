@@ -1,6 +1,8 @@
 # Revision history for Task-BeLike-YANICK
 
-{{{$NEXT}}}
+{{{$NEXT}}
+
+0.3.0     2010-07-03 12:16:17 America/Montreal}
     * add ability to upgrade dependencies with TASK_UPGRADE
     * abort build for automated testing
     * add Dist::Zilla modules
