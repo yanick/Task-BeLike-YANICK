@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {},
+       {
+         'verbose' => undef,
+         'PL_files' => undef,
+         'pollute' => undef,
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'conflicts' => {},
+         'recommends' => {},
+         'scripts' => undef,
+         'dist_version' => 'v0.1.0',
+         'pod_files' => undef,
+         'config_dir' => '_build',
+         'sign' => undef,
+         'recurse_into' => [],
+         'build_bat' => 0,
+         'extra_linker_flags' => [],
+         'build_class' => 'Module::Build',
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'base_dir' => '/home/yanick/work/perl-modules/task-belike-yanick',
+         'allow_mb_mismatch' => 0,
+         'xs_files' => undef,
+         'destdir' => undef,
+         'metafile' => 'META.yml',
+         'mb_version' => '0.3601',
+         'use_tap_harness' => 0,
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'has_config_data' => undef,
+         'dist_name' => 'Task-BeLike-YANICK',
+         'install_base' => undef,
+         'module_name' => 'Task::BeLike::YANICK',
+         'recursive_test_files' => undef,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'perl' => '/usr/bin/perl',
+         'dist_author' => [
+                            'Yanick Champoux <yanick@cpan.org>'
+                          ],
+         'bundle_inc' => [],
+         'use_rcfile' => 1,
+         'configure_requires' => {
+                                   'Module::Build' => '0.36'
+                                 },
+         'test_files' => undef,
+         'dist_abstract' => undef,
+         'create_readme' => undef,
+         'prefix_relpaths' => {},
+         'share_dir' => undef,
+         'debug' => undef,
+         'meta_merge' => {},
+         'get_options' => {},
+         'dist_version_from' => 'lib/Task/BeLike/YANICK.pm',
+         '_added_to_INC' => [],
+         'auto_configure_requires' => 1,
+         'create_license' => undef,
+         'debugger' => undef,
+         'html_css' => '',
+         'cpan_client' => 'cpan',
+         'bundle_inc_preload' => [],
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'needs_compiler' => '',
+         'orig_dir' => '/home/yanick/work/perl-modules/task-belike-yanick',
+         'include_dirs' => [],
+         'installdirs' => 'site',
+         'mymetafile' => 'MYMETA.yml',
+         'create_makefile_pl' => 'passthrough',
+         'magic_number' => undef,
+         'tap_harness_args' => {},
+         'install_sets' => {},
+         'install_base_relpaths' => {},
+         'meta_add' => {},
+         'create_packlist' => 1,
+         'requires' => {
+                         'MooseX::Declare' => '0.33',
+                         'XML::Simple' => '2.18',
+                         'App::Ack' => '1.92',
+                         'Perl::Tidy' => '20090616',
+                         'CPAN::SQLite' => '0.199',
+                         'Git::CPAN::Patch' => '0.3.1',
+                         'XML::XPathScript' => '1.54',
+                         'HTML::Mason' => '1.45',
+                         'autodie' => '2.10',
+                         'Module::Which' => '0.0207',
+                         'Moose' => '1.01',
+                         'Test::Class' => '0.34',
+                         'WWW::Mechanize' => '1.62',
+                         'Template' => '2.22',
+                         'Perl::Critic' => '1.105',
+                         'XML::Writer' => '0.610',
+                         'XML::LibXML' => '1.70',
+                         'Catalyst::Runtime' => '5.80022'
+                       },
+         'install_path' => {},
+         'pm_files' => undef,
+         'quiet' => undef,
+         'extra_compiler_flags' => [],
+         'script_files' => undef,
+         'build_script' => 'Build',
+         'original_prefix' => {},
+         'c_source' => undef,
+         'program_name' => undef,
+         'autosplit' => undef,
+         'license' => 'perl',
+         'build_requires' => {
+                               'Module::Build' => 0
+                             },
+         'config' => undef,
+         'blib' => 'blib',
+         'prefix' => undef
+       }
+     ];
+$x; }

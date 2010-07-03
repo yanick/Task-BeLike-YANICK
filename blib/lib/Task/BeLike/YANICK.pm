@@ -108,22 +108,11 @@ Effortlessly import CPAN distros in a Git repository.
 
 Add some class to your testing.
 
-=item L<Test::Perl::Critic>
-
-
-=item L<Test::Perl::Critic::Progressive>
-
-Raise the bar, millimeter by millimeter.
-
 =back
 
 =head2 Development
 
 =over
-
-=item L<Carp::Always>
-
-"You're going to tell me what you know. EVERYTHING you know..."
 
 =item L<autodie>
 
@@ -138,49 +127,18 @@ Because tidy code is so easier to read.
 
 =item L<Perl::Critic>
 
-=item L<Module::Which>
-
-Which version of I<Foo::Bar> am I running, and in which lib directory
-is it hidding?
-
-=item L<Pod::POM::Web>
-
-Because search.cpan.org doesn't deserved to be poked every
-five minutes.
-
-=back
-
-=head2 CPAN
-
-=over
-
-=item L<CPAN::SQLite>
-
-CPAN asks for it, so there it is.
-
-=back
-
-=head2 Dist::Zilla
-
-=over
-
-=item L<Dist::Zilla>
-
-Rooooar!
-
-=item L<Dist::Zilla::Plugin::Git>
-
-Git-related Dist::Zilla actions.
-
-=item L<Dist::Zilla::Plugin::GithubMeta>
-
-Github actions.
 
 =back
 
 =for end_install
 
+=head1 VERSION
+
+Version 0.1.0
+
 =cut
+
+our $VERSION = '0.1.0';
 
 =head1 AUTHOR
 

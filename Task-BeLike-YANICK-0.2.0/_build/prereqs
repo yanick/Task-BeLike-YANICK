@@ -1,0 +1,26 @@
+do{ my $x = {
+       'build_requires' => {
+                             'Module::Build' => 0
+                           },
+       'conflicts' => {},
+       'requires' => {
+                       'MooseX::Declare' => 0,
+                       'Test::Class' => 0,
+                       'WWW::Mechanize' => 0,
+                       'XML::Simple' => 0,
+                       'App::Ack' => 0,
+                       'Template' => 0,
+                       'Perl::Tidy' => 0,
+                       'Perl::Critic' => 0,
+                       'Git::CPAN::Patch' => 0,
+                       'XML::XPathScript' => 0,
+                       'XML::Writer' => 0,
+                       'HTML::Mason' => 0,
+                       'autodie' => 0,
+                       'XML::LibXML' => 0,
+                       'Catalyst::Runtime' => 0,
+                       'Moose' => 0
+                     },
+       'recommends' => {}
+     };
+$x; }

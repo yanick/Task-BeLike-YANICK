@@ -1,4 +1,7 @@
 package Task::BeLike::YANICK;
+BEGIN {
+  $Task::BeLike::YANICK::VERSION = '0.3.0';
+}
 
 use warnings;
 use strict;
@@ -6,6 +9,10 @@ use strict;
 =head1 NAME
 
 Task::BeLike::YANICK - like Yanick? Be like Yanick!
+
+=head1 VERSION
+
+version 0.3.0
 
 =head1 SYNOPSIS
 
@@ -108,22 +115,11 @@ Effortlessly import CPAN distros in a Git repository.
 
 Add some class to your testing.
 
-=item L<Test::Perl::Critic>
-
-
-=item L<Test::Perl::Critic::Progressive>
-
-Raise the bar, millimeter by millimeter.
-
 =back
 
 =head2 Development
 
 =over
-
-=item L<Carp::Always>
-
-"You're going to tell me what you know. EVERYTHING you know..."
 
 =item L<autodie>
 
@@ -142,11 +138,6 @@ Because tidy code is so easier to read.
 
 Which version of I<Foo::Bar> am I running, and in which lib directory
 is it hidding?
-
-=item L<Pod::POM::Web>
-
-Because search.cpan.org doesn't deserved to be poked every
-five minutes.
 
 =back
 

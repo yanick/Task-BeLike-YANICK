@@ -1,4 +1,7 @@
 package Task::BeLike::YANICK;
+BEGIN {
+  $Task::BeLike::YANICK::VERSION = '0.4.0';
+}
 
 use warnings;
 use strict;
@@ -6,6 +9,10 @@ use strict;
 =head1 NAME
 
 Task::BeLike::YANICK - like Yanick? Be like Yanick!
+
+=head1 VERSION
+
+version 0.4.0
 
 =head1 SYNOPSIS
 
