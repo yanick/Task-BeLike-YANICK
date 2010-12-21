@@ -154,6 +154,10 @@ five minutes.
 
 =over
 
+=item L<App::cpanminus>
+
+Slam, bang, thank you CPAN.
+
 =item L<CPAN::SQLite>
 
 CPAN asks for it, so there it is.
@@ -167,6 +171,10 @@ CPAN asks for it, so there it is.
 =item L<Dist::Zilla>
 
 Rooooar!
+
+=item L<Dist::Zilla::PluginBundle::YANICK>
+
+One bundle to configure'em all...
 
 =item L<Dist::Zilla::Plugin::Git>
 
