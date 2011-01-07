@@ -43,12 +43,9 @@ sub get_requirements {
     while ( <$pod_fh> ) {
         chomp;
 
-        next unless /^=for install/../^=for end_install/;
+        next unless /^=item L<(.*?)>\s*(\S*)/;
 
-        next unless /^=item \s+/x;
-
-        my ( $module, $version ) = split ' ' => $';
-        $module =~ s/^ L< (.*?) > $/$1/x;
+        my ( $module, $version ) = ( $1, $2 );
 
         if ( $opt_upgrade and not $version ) {
             require CPANPLUS::Backend;

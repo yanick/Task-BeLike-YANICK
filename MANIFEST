@@ -2,8 +2,12 @@ Build.PL
 Changes
 LICENSE
 MANIFEST
+META.json
 META.yml
 README
+README.mkdn
+SIGNATURE
 inc/MyBuild.pm
 lib/Task/BeLike/YANICK.pm
 t/00-load.t
+t/000-report-versions.t

@@ -7,7 +7,11 @@ use lib 'inc'; use MyBuild;
 
 my %module_build_args = (
   'build_requires' => {
-    'Module::Build' => '0.3601'
+    'Carp' => '0',
+    'Module::Build' => '0.3601',
+    'Scalar::Util' => '0',
+    'Test::More' => '0.94',
+    'perl' => '5.004'
   },
   'configure_requires' => {
     'Module::Build' => '0.3601'
@@ -17,7 +21,7 @@ my %module_build_args = (
     'Yanick Champoux <yanick@cpan.org>'
   ],
   'dist_name' => 'Task-BeLike-YANICK',
-  'dist_version' => '0.4.0',
+  'dist_version' => '0.5.0',
   'license' => 'perl',
   'module_name' => 'Task::BeLike::YANICK',
   'recommends' => {},

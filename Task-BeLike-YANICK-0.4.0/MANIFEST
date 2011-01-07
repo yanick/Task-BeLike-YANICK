@@ -1,9 +1,0 @@
-Build.PL
-Changes
-LICENSE
-MANIFEST
-META.yml
-README
-inc/MyBuild.pm
-lib/Task/BeLike/YANICK.pm
-t/00-load.t

@@ -1,11 +1,28 @@
 package Task::BeLike::YANICK;
+BEGIN {
+  $Task::BeLike::YANICK::AUTHORITY = 'cpan:yanick';
+}
+BEGIN {
+  $Task::BeLike::YANICK::VERSION = '0.5.0';
+}
 
 use warnings;
 use strict;
 
+
+
+1; # End of Task::BeLike::YANICK
+
+__END__
+=pod
+
 =head1 NAME
 
-Task::BeLike::YANICK - like Yanick? Be like Yanick!
+Task::BeLike::YANICK
+
+=head1 VERSION
+
+version 0.5.0
 
 =head1 SYNOPSIS
 
@@ -22,11 +39,23 @@ To do that, do
 
     TASK_UPGRADE=1 cpan -f Task::BeLike::YANICK
 
+=head1 NAME
+
+Task::BeLike::YANICK - like Yanick? Be like Yanick!
+
 =head1 MODULES INSTALLED BY THIS TASK
 
-=head2 Object-Oriented Frameworks
+=head2 General
 
-=for install
+=over
+
+=item L<Task::Kensho>
+
+Might not use'em all, but I want them all near me, just in case.
+
+=back
+
+=head2 Object-Oriented Frameworks
 
 =over
 
@@ -87,7 +116,6 @@ of applications.
 A must for testing and small web hacks.  Plus, this module name always 
 reminds me of I<Battletech>.
 
-
 =back
 
 =head2 Version Control Systems
@@ -109,7 +137,6 @@ Effortlessly import CPAN distros in a Git repository.
 Add some class to your testing.
 
 =item L<Test::Perl::Critic>
-
 
 =item L<Test::Perl::Critic::Progressive>
 
@@ -154,6 +181,10 @@ five minutes.
 
 =over
 
+=item L<App::cpanminus>
+
+Slam, bang, thank you CPAN.
+
 =item L<CPAN::SQLite>
 
 CPAN asks for it, so there it is.
@@ -168,6 +199,10 @@ CPAN asks for it, so there it is.
 
 Rooooar!
 
+=item L<Dist::Zilla::PluginBundle::YANICK>
+
+One bundle to configure'em all...
+
 =item L<Dist::Zilla::Plugin::Git>
 
 Git-related Dist::Zilla actions.
@@ -177,10 +212,6 @@ Git-related Dist::Zilla actions.
 Github actions.
 
 =back
-
-=for end_install
-
-=cut
 
 =head1 AUTHOR
 
@@ -232,6 +263,16 @@ Copyright 2009 Yanick Champoux, all rights reserved.
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
+=head1 AUTHOR
+
+Yanick Champoux <yanick@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2011 by Yanick Champoux.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
 =cut
 
-1; # End of Task::BeLike::YANICK
