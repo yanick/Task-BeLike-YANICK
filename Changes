@@ -1,6 +1,7 @@
 # Revision history for Task-BeLike-YANICK
 
 {{$NEXT}}
+    * add a few more modules
 
 0.4.0     2010-07-03 12:39:01 America/Montreal
     * add Pod::POM::Web
