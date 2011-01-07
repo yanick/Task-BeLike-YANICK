@@ -24,9 +24,17 @@ To do that, do
 
 =head1 MODULES INSTALLED BY THIS TASK
 
-=head2 Object-Oriented Frameworks
+=head2 General
 
-=for install
+=over 
+
+=item L<Task::Kensho>
+
+Might not use'em all, but I want them all near me, just in case.
+
+=back
+
+=head2 Object-Oriented Frameworks
 
 =over
 
@@ -185,8 +193,6 @@ Git-related Dist::Zilla actions.
 Github actions.
 
 =back
-
-=for end_install
 
 =cut
 
