@@ -146,11 +146,14 @@ Because tidy code is so easier to read.
 
 =item L<Perl::Critic>
 
+<<<<<<< HEAD
 =item L<Module::Which>
 
 Which version of I<Foo::Bar> am I running, and in which lib directory
 is it hidding?
 
+=======
+>>>>>>> adding Pod::POM::Web
 =item L<Pod::POM::Web>
 
 Because search.cpan.org doesn't deserved to be poked every
@@ -169,10 +172,6 @@ Slam, bang, thank you CPAN.
 =item L<CPAN::SQLite>
 
 CPAN asks for it, so there it is.
-
-=item L<App::cpanoutdated>
-
-    cpan-outdated | cpanm
 
 =back
 

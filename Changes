@@ -1,6 +1,7 @@
 # Revision history for Task-BeLike-YANICK
 
 {{$NEXT}}
+    * add App::cpanoutdated
 
 0.5.0     2011-01-06 19:48:39 America/Montreal
     * add a few more modules
