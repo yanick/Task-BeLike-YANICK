@@ -80,6 +80,12 @@ Want to share a directory over http?
     $ cd /path/to/dir/we/wanna/share
     $ http_this
 
+=item L<Module::Info>
+
+Want to know where the module is?
+
+    module_info Task::BeLike::YANICK
+
 =back
 
 =head2 Web Development

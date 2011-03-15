@@ -73,6 +73,22 @@ Can't leave out my baby, now, can I?
 
 C<grep> is nice, but C<ack> is just nicer.
 
+<<<<<<< HEAD
+=item L<App::HTTPThis>
+
+Want to share a directory over http?
+
+    $ cd /path/to/dir/we/wanna/share
+    $ http_this
+=======
+=item L<Module::Info>
+
+Want to know where the module is?
+
+    module_info Task::BeLike::YANICK
+
+>>>>>>> Module::Info
+
 =back
 
 =head2 Web Development
@@ -146,14 +162,11 @@ Because tidy code is so easier to read.
 
 =item L<Perl::Critic>
 
-<<<<<<< HEAD
 =item L<Module::Which>
 
 Which version of I<Foo::Bar> am I running, and in which lib directory
 is it hidding?
 
-=======
->>>>>>> adding Pod::POM::Web
 =item L<Pod::POM::Web>
 
 Because search.cpan.org doesn't deserved to be poked every
@@ -172,6 +185,10 @@ Slam, bang, thank you CPAN.
 =item L<CPAN::SQLite>
 
 CPAN asks for it, so there it is.
+
+=item L<App::cpanoutdated>
+
+    cpan-outdated | cpanm
 
 =back
 
