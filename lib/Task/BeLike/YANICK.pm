@@ -73,6 +73,13 @@ Can't leave out my baby, now, can I?
 
 C<grep> is nice, but C<ack> is just nicer.
 
+=item L<App::HTTPThis>
+
+Want to share a directory over http?
+
+    $ cd /path/to/dir/we/wanna/share
+    $ http_this
+
 =back
 
 =head2 Web Development
