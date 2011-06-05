@@ -21,7 +21,7 @@ my %module_build_args = (
     'Yanick Champoux <yanick@cpan.org>'
   ],
   'dist_name' => 'Task-BeLike-YANICK',
-  'dist_version' => '0.5.0',
+  'dist_version' => '0.6.0',
   'license' => 'perl',
   'module_name' => 'Task::BeLike::YANICK',
   'recommends' => {},

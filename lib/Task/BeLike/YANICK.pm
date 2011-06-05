@@ -3,8 +3,9 @@ BEGIN {
   $Task::BeLike::YANICK::AUTHORITY = 'cpan:yanick';
 }
 BEGIN {
-  $Task::BeLike::YANICK::VERSION = '0.5.0';
+  $Task::BeLike::YANICK::VERSION = '0.6.0';
 }
+# ABSTRACT: like Yanick? Be like Yanick!
 
 use warnings;
 use strict;
@@ -18,11 +19,11 @@ __END__
 
 =head1 NAME
 
-Task::BeLike::YANICK
+Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 =head1 VERSION
 
-version 0.5.0
+version 0.6.0
 
 =head1 SYNOPSIS
 
@@ -38,10 +39,6 @@ It can also B<update> the modules that I use on a regular basis!
 To do that, do
 
     TASK_UPGRADE=1 cpan -f Task::BeLike::YANICK
-
-=head1 NAME
-
-Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 =head1 MODULES INSTALLED BY THIS TASK
 
@@ -93,6 +90,19 @@ Can't leave out my baby, now, can I?
 =item L<App::Ack>
 
 C<grep> is nice, but C<ack> is just nicer.
+
+=item L<App::HTTPThis>
+
+Want to share a directory over http?
+
+    $ cd /path/to/dir/we/wanna/share
+    $ http_this
+
+=item L<Module::Info>
+
+Want to know where the module is?
+
+    module_info Task::BeLike::YANICK
 
 =back
 
@@ -159,6 +169,10 @@ always either end in success, or death...
 
 Part of the core as of 5.10.1.
 
+=item L<Const::Fast>
+
+First, there was L<constant>, then L<Readonly>, and now L<Const::Fast>.
+
 =item L<Perl::Tidy>
 
 Because tidy code is so easier to read.
@@ -188,6 +202,10 @@ Slam, bang, thank you CPAN.
 =item L<CPAN::SQLite>
 
 CPAN asks for it, so there it is.
+
+=item L<App::cpanoutdated>
+
+    cpan-outdated | cpanm
 
 =back
 

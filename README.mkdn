@@ -1,10 +1,10 @@
 # NAME
 
-Task::BeLike::YANICK
+Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 # VERSION
 
-version 0.5.0
+version 0.6.0
 
 # SYNOPSIS
 
@@ -20,10 +20,6 @@ It can also __update__ the modules that I use on a regular basis!
 To do that, do
 
     TASK_UPGRADE=1 cpan -f Task::BeLike::YANICK
-
-# NAME
-
-Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 # MODULES INSTALLED BY THIS TASK
 
@@ -61,6 +57,19 @@ Can't leave out my baby, now, can I?
 - [App::Ack](http://search.cpan.org/perldoc?App::Ack)
 
 `grep` is nice, but `ack` is just nicer.
+
+- [App::HTTPThis](http://search.cpan.org/perldoc?App::HTTPThis)
+
+Want to share a directory over http?
+
+    $ cd /path/to/dir/we/wanna/share
+    $ http_this
+
+- [Module::Info](http://search.cpan.org/perldoc?Module::Info)
+
+Want to know where the module is?
+
+    module_info Task::BeLike::YANICK
 
 ## Web Development
 
@@ -111,6 +120,10 @@ always either end in success, or death...
 
 Part of the core as of 5.10.1.
 
+- [Const::Fast](http://search.cpan.org/perldoc?Const::Fast)
+
+First, there was [constant](http://search.cpan.org/perldoc?constant), then [Readonly](http://search.cpan.org/perldoc?Readonly), and now [Const::Fast](http://search.cpan.org/perldoc?Const::Fast).
+
 - [Perl::Tidy](http://search.cpan.org/perldoc?Perl::Tidy)
 
 Because tidy code is so easier to read.
@@ -136,6 +149,10 @@ Slam, bang, thank you CPAN.
 - [CPAN::SQLite](http://search.cpan.org/perldoc?CPAN::SQLite)
 
 CPAN asks for it, so there it is.
+
+- [App::cpanoutdated](http://search.cpan.org/perldoc?App::cpanoutdated)
+
+    cpan-outdated | cpanm
 
 ## Dist::Zilla
 

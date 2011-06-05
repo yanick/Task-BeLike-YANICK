@@ -1,8 +1,8 @@
 NAME
-    Task::BeLike::YANICK
+    Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 VERSION
-    version 0.5.0
+    version 0.6.0
 
 SYNOPSIS
         $ cpan Task::BeLike::YANICK
@@ -14,9 +14,6 @@ DESCRIPTION
     regular basis! To do that, do
 
         TASK_UPGRADE=1 cpan -f Task::BeLike::YANICK
-
-NAME
-    Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 MODULES INSTALLED BY THIS TASK
   General
@@ -41,6 +38,17 @@ MODULES INSTALLED BY THIS TASK
   Applications
     App::Ack
         "grep" is nice, but "ack" is just nicer.
+
+    App::HTTPThis
+        Want to share a directory over http?
+
+            $ cd /path/to/dir/we/wanna/share
+            $ http_this
+
+    Module::Info
+        Want to know where the module is?
+
+            module_info Task::BeLike::YANICK
 
   Web Development
     Catalyst::Runtime
@@ -77,6 +85,9 @@ MODULES INSTALLED BY THIS TASK
 
         Part of the core as of 5.10.1.
 
+    Const::Fast
+        First, there was constant, then Readonly, and now Const::Fast.
+
     Perl::Tidy
         Because tidy code is so easier to read.
 
@@ -95,6 +106,9 @@ MODULES INSTALLED BY THIS TASK
 
     CPAN::SQLite
         CPAN asks for it, so there it is.
+
+    App::cpanoutdated
+            cpan-outdated | cpanm
 
   Dist::Zilla
     Dist::Zilla
