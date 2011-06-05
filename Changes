@@ -1,6 +1,9 @@
 # Revision history for Task-BeLike-YANICK
 
 {{$NEXT}}
+
+    [ENHANCEMENTS]
+
     * add App::cpanoutdated, App::HTTPThis, Module::Info
         and Const::Fast.
 

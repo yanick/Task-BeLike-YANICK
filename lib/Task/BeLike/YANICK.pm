@@ -1,11 +1,8 @@
 package Task::BeLike::YANICK;
+# ABSTRACT: like Yanick? Be like Yanick!
 
 use warnings;
 use strict;
-
-=head1 NAME
-
-Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 =head1 SYNOPSIS
 
