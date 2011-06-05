@@ -153,6 +153,10 @@ always either end in success, or death...
 
 Part of the core as of 5.10.1.
 
+=item L<Const::Fast>
+
+First, there was L<constant>, then L<Readonly>, and now L<Const::Fast>.
+
 =item L<Perl::Tidy>
 
 Because tidy code is so easier to read.
