@@ -89,6 +89,15 @@ Want to know where the module is?
 
 =over
 
+=item L<Dancer>
+
+So you think you can dance?
+
+=item L<Dancer::Template::Mason>
+
+=item L<Dancer::Plugin::Cache::CHI>
+
+
 =item L<Catalyst::Runtime>
 
 =item L<HTML::Mason>
