@@ -66,6 +66,10 @@ Can't leave out my baby, now, can I?
 
 =over
 
+=item L<App::GitGot>
+
+Git repo herder.
+
 =item L<App::Ack>
 
 C<grep> is nice, but C<ack> is just nicer.

@@ -7,6 +7,7 @@
 
  [ENHANCEMENTS]
  - add Method::Signature.
+ - Add App::GitGot
 
 0.6.0 2011-06-05
  [ENHANCEMENTS]
