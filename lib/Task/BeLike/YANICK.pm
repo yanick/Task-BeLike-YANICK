@@ -148,6 +148,8 @@ Raise the bar, millimeter by millimeter.
 
 =over
 
+=item L<Method::Signatures>
+
 =item L<Carp::Always>
 
 "You're going to tell me what you know. EVERYTHING you know..."

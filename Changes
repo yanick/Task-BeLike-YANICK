@@ -6,6 +6,7 @@
  [BUG FIXES]
 
  [ENHANCEMENTS]
+ - add Method::Signature.
 
 0.6.0 2011-06-05
  [ENHANCEMENTS]
