@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.64.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,22 +14,25 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 cc04dd7f453aec1625b954d019a21ffd610bdf81 Build.PL
-SHA1 f37a953eee92a048c92c1db380c1dd63f7d17ff9 Changes
-SHA1 59da7efc4d54fec3810ae9f44a59eb3ee7139957 LICENSE
-SHA1 b7ec41dd52b6ac2a54526ff65e37b23e8ad5d02c MANIFEST
-SHA1 3c1e6b4c43342036d41c1f99e5bc48dd35c88e0f META.json
-SHA1 c9bc846cfaa61e5d439be877ebd285569e10916f META.yml
-SHA1 7484ccc393e97db7965860ce3f25ba5ea9d489b2 README
-SHA1 c5d18fd6a3be0bf32dc5750e5306d27d8ee82463 README.mkdn
+SHA1 e0a2730549998d792ce08401c51b3bf21ec3517a AUTHOR_PLEDGE
+SHA1 591ea426fac3861a72a89d4da380d166fcd08391 Build.PL
+SHA1 5d0c8afc02dbf5d1839c3e32a7ee404c071d06b5 Changes
+SHA1 a124f7a76d045d61b16c7d6e7be6a92aa20bc8ea INSTALL
+SHA1 33260abc93b43a44581b0b6263d7e4318f4122bb LICENSE
+SHA1 d0edccfb7bb77a24b07d680de5823944c975ae1c MANIFEST
+SHA1 1ef0ff878f9347f8f22c3c04bdb3617e35177802 META.json
+SHA1 c3436eb8254468fb21f9272eaec68ef4620f8653 META.yml
+SHA1 fb9791e3d9a359c12c66809c157b0dd7e452b312 README
+SHA1 ab6e19f0a2b74cb3de5d5cf1bb45cf634f21bbbb README.mkdn
 SHA1 3889cae02ad5a7391937d425d3fb9de085ab1e2e inc/MyBuild.pm
-SHA1 d005cbe459a3adfa264f411f4d9a56aff9402bfa lib/Task/BeLike/YANICK.pm
+SHA1 00183eb02df963b1a59d4cfff3966dd8bac5c848 lib/Task/BeLike/YANICK.pm
+SHA1 3cbe905b92fbc69d59a06031d5ce6c837b352aa2 t/00-compile.t
 SHA1 3e245c11c2b26a4fc730768d0527042a6f5e7b23 t/00-load.t
-SHA1 050aa113e828a52db3c86065c0c0ed50198b7ce8 t/000-report-versions.t
+SHA1 473906254ecd96009795d4b7fbc82fac48c03ecd t/000-report-versions.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (GNU/Linux)
+Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAk3r+rgACgkQ34Hwf+GwC4xl5ACeJ7Jd69sYv+9zbLQiyB8kHA/O
-rGkAoJcCd6n2Ch6AUA8K5fnwLXWs9X4J
-=41PS
+iEYEARECAAYFAk/LoXEACgkQ34Hwf+GwC4wyegCguFjNEdEjrvwO9mNODo95VLov
+d7wAnR1gydE2JADp5qZ8X+pniqa/FI08
+=zKt/
 -----END PGP SIGNATURE-----

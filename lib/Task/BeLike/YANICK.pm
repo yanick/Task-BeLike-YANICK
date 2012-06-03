@@ -1,9 +1,9 @@
 package Task::BeLike::YANICK;
 BEGIN {
-  $Task::BeLike::YANICK::AUTHORITY = 'cpan:yanick';
+  $Task::BeLike::YANICK::AUTHORITY = 'cpan:YANICK';
 }
-BEGIN {
-  $Task::BeLike::YANICK::VERSION = '0.6.0';
+{
+  $Task::BeLike::YANICK::VERSION = '0.7.0';
 }
 # ABSTRACT: like Yanick? Be like Yanick!
 
@@ -23,7 +23,7 @@ Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 =head1 VERSION
 
-version 0.6.0
+version 0.7.0
 
 =head1 SYNOPSIS
 
@@ -49,6 +49,21 @@ To do that, do
 =item L<Task::Kensho>
 
 Might not use'em all, but I want them all near me, just in case.
+
+=item L<Set::CrossProduct>
+
+    my $iterator = Set::CrossProduct->new([
+        [ a..z ],
+        [ 1..10 ],
+    ]);
+
+    while( my $i = $iterator->get ) {
+        print @$i;
+    }
+
+=item L<Algorithm::Combinatorics>
+
+Permutations are fun!
 
 =back
 
@@ -87,6 +102,10 @@ Can't leave out my baby, now, can I?
 
 =over
 
+=item L<App::GitGot>
+
+Git repo herder.
+
 =item L<App::Ack>
 
 C<grep> is nice, but C<ack> is just nicer.
@@ -109,6 +128,14 @@ Want to know where the module is?
 =head2 Web Development
 
 =over
+
+=item L<Dancer>
+
+So you think you can dance?
+
+=item L<Dancer::Template::Mason>
+
+=item L<Dancer::Plugin::Cache::CHI>
 
 =item L<Catalyst::Runtime>
 
@@ -158,9 +185,13 @@ Raise the bar, millimeter by millimeter.
 
 =over
 
-=item L<Carp::Always>
+=item L<Method::Signatures>
+
+=item L<Carp::Always::Color>
 
 "You're going to tell me what you know. EVERYTHING you know..."
+
+"...and you are going to tell me... IN COLORS!"
 
 =item L<autodie>
 
@@ -287,7 +318,7 @@ Yanick Champoux <yanick@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Yanick Champoux.
+This software is copyright (c) 2012 by Yanick Champoux.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

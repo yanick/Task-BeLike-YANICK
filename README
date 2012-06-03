@@ -2,7 +2,7 @@ NAME
     Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 VERSION
-    version 0.6.0
+    version 0.7.0
 
 SYNOPSIS
         $ cpan Task::BeLike::YANICK
@@ -20,6 +20,19 @@ MODULES INSTALLED BY THIS TASK
     Task::Kensho
         Might not use'em all, but I want them all near me, just in case.
 
+    Set::CrossProduct
+            my $iterator = Set::CrossProduct->new([
+                [ a..z ],
+                [ 1..10 ],
+            ]);
+
+            while( my $i = $iterator->get ) {
+                print @$i;
+            }
+
+    Algorithm::Combinatorics
+        Permutations are fun!
+
   Object-Oriented Frameworks
     Moose
     MooseX::Declare
@@ -36,6 +49,9 @@ MODULES INSTALLED BY THIS TASK
         Can't leave out my baby, now, can I?
 
   Applications
+    App::GitGot
+        Git repo herder.
+
     App::Ack
         "grep" is nice, but "ack" is just nicer.
 
@@ -51,6 +67,11 @@ MODULES INSTALLED BY THIS TASK
             module_info Task::BeLike::YANICK
 
   Web Development
+    Dancer
+        So you think you can dance?
+
+    Dancer::Template::Mason
+    Dancer::Plugin::Cache::CHI
     Catalyst::Runtime
     HTML::Mason
         My templating system of choice.
@@ -76,8 +97,11 @@ MODULES INSTALLED BY THIS TASK
         Raise the bar, millimeter by millimeter.
 
   Development
-    Carp::Always
+    Method::Signatures
+    Carp::Always::Color
         "You're going to tell me what you know. EVERYTHING you know..."
+
+        "...and you are going to tell me... IN COLORS!"
 
     autodie
         Because my minions should know that their missions should always
@@ -167,7 +191,7 @@ AUTHOR
     Yanick Champoux <yanick@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Yanick Champoux.
+    This software is copyright (c) 2012 by Yanick Champoux.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

@@ -1,5 +1,7 @@
+AUTHOR_PLEDGE
 Build.PL
 Changes
+INSTALL
 LICENSE
 MANIFEST
 META.json
@@ -9,5 +11,6 @@ README.mkdn
 SIGNATURE
 inc/MyBuild.pm
 lib/Task/BeLike/YANICK.pm
+t/00-compile.t
 t/00-load.t
 t/000-report-versions.t

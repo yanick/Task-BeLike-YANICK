@@ -4,6 +4,8 @@ author:
   - 'Yanick Champoux <yanick@cpan.org>'
 build_requires:
   Carp: 0
+  File::Find: 0
+  File::Temp: 0
   Module::Build: 0.3601
   Scalar::Util: 0
   Test::More: 0.94
@@ -11,7 +13,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102345, CPAN::Meta::Converter version 2.101590'
+generated_by: 'Dist::Zilla version 4.300010, CPAN::Meta::Converter version 2.120630'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,10 +22,15 @@ name: Task-BeLike-YANICK
 provides:
   Task::BeLike::YANICK:
     file: lib/Task/BeLike/YANICK.pm
-    version: v0.6.0
+    version: v0.7.0
+requires:
+  strict: 0
+  warnings: 0
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-YANICK
   homepage: http://search.cpan.org/dist/Task-BeLike-YANICK/
-  repository: git://github.com/yanick/Task-BeLike-YANICK.git
-version: 0.6.0
-x_authority: cpan:yanick
+  repository: https://github.com/yanick/Task-BeLike-YANICK.git
+version: 0.7.0
+x_author_pledge:
+  version: 1
+x_authority: cpan:YANICK

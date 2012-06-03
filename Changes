@@ -1,10 +1,18 @@
 # Revision history for Task-BeLike-YANICK
 
+0.7.0 2012-06-03
+ [ENHANCEMENTS]
+ - add Method::Signature, App::GitGot, Carp::Always::Color,
+   Set::CrossProduct, Algorithm:;Combinatorics
+
+ [STATISTICS]
+ - code churn: 3 files changed, 64 insertions(+), 22 deletions(-)
+
 0.6.0 2011-06-05
  [ENHANCEMENTS]
  - add App::cpanoutdated, App::HTTPThis, Module::Info and Const::Fast.
 
-0.5.0 2011-01-06 
+0.5.0 2011-01-06
  - add a few more modules
 
 0.4.0 2010-07-03
