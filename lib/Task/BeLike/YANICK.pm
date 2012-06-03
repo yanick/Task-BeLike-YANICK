@@ -29,6 +29,21 @@ To do that, do
 
 Might not use'em all, but I want them all near me, just in case.
 
+=item L<Set::CrossProduct>
+
+    my $iterator = Set::CrossProduct->new([
+        [ a..z ],
+        [ 1..10 ],
+    ]);
+
+    while( my $i = $iterator->get ) {
+        print @$i;
+    }
+
+=item L<Algorithm::Combinatorics>
+
+Permutations are fun!
+
 =back
 
 =head2 Object-Oriented Frameworks
@@ -154,9 +169,11 @@ Raise the bar, millimeter by millimeter.
 
 =item L<Method::Signatures>
 
-=item L<Carp::Always>
+=item L<Carp::Always::Color>
 
 "You're going to tell me what you know. EVERYTHING you know..."
+
+"...and you are going to tell me... IN COLORS!"
 
 =item L<autodie>
 

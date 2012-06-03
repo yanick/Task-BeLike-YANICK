@@ -6,8 +6,8 @@
  [BUG FIXES]
 
  [ENHANCEMENTS]
- - add Method::Signature.
- - Add App::GitGot
+ - add Method::Signature, App::GitGot, Carp::Always::Color,
+    Set::CrossProduct, Algorithm:;Combinatorics
 
 0.6.0 2011-06-05
  [ENHANCEMENTS]
