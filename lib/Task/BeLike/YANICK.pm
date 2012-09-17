@@ -161,6 +161,11 @@ Add some class to your testing.
 
 Raise the bar, millimeter by millimeter.
 
+=item L<DBD::Mock>
+
+Want to test the logic of something connecting to a database, but don't
+have a database handy? No problem.
+
 =back
 
 =head2 Development

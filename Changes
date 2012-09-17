@@ -2,10 +2,11 @@
 
 {{$NEXT}}
 
-0.7.0     2012-06-03 
- [API CHANGES]
+    * add App::cpanoutdated, App::HTTPThis, Module::Info, DBD::Mock
+        and Const::Fast.
 
- [BUG FIXES]
+0.7.0     2012-06-03 
+
 
  [ENHANCEMENTS]
  - add Method::Signature, App::GitGot, Carp::Always::Color,
