@@ -1,8 +1,30 @@
 package Task::BeLike::YANICK;
+BEGIN {
+  $Task::BeLike::YANICK::AUTHORITY = 'cpan:YANICK';
+}
+{
+  $Task::BeLike::YANICK::VERSION = '0.8.0';
+}
 # ABSTRACT: like Yanick? Be like Yanick!
 
 use warnings;
 use strict;
+
+
+
+1; # End of Task::BeLike::YANICK
+
+__END__
+
+=pod
+
+=head1 NAME
+
+Task::BeLike::YANICK - like Yanick? Be like Yanick!
+
+=head1 VERSION
+
+version 0.8.0
 
 =head1 SYNOPSIS
 
@@ -23,7 +45,7 @@ To do that, do
 
 =head2 General
 
-=over 
+=over
 
 =item L<Task::Kensho>
 
@@ -120,7 +142,6 @@ So you think you can dance?
 
 =item L<Dancer::Plugin::Cache::CHI>
 
-
 =item L<Catalyst::Runtime>
 
 =item L<HTML::Mason>
@@ -136,7 +157,6 @@ of applications.
 
 A must for testing and small web hacks.  Plus, this module name always 
 reminds me of I<Battletech>.
-
 
 =back
 
@@ -159,7 +179,6 @@ Effortlessly import CPAN distros in a Git repository.
 Add some class to your testing.
 
 =item L<Test::Perl::Critic>
-
 
 =item L<Test::Perl::Critic::Progressive>
 
@@ -253,8 +272,6 @@ Github actions.
 
 =back
 
-=cut
-
 =head1 AUTHOR
 
 Yanick Champoux, C<< <yanick at cpan.org> >>
@@ -305,6 +322,15 @@ Copyright 2009 Yanick Champoux, all rights reserved.
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
-=cut
+=head1 AUTHOR
 
-1; # End of Task::BeLike::YANICK
+Yanick Champoux <yanick@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Yanick Champoux.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
