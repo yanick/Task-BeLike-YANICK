@@ -102,6 +102,10 @@ Want to know where the module is?
 
     module_info Task::BeLike::YANICK
 
+=item L<App::PAUSE::cleanup>
+
+Muuuch better than via the PAUSE web interface.
+
 =back
 
 =head2 Web Development

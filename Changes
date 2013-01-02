@@ -1,13 +1,11 @@
 # Revision history for Task-BeLike-YANICK
 
 {{$NEXT}}
-
-    * add App::cpanoutdated, App::HTTPThis, Module::Info, DBD::Mock
-        and Const::Fast.
+ [ENHANCEMENTS]
+ - add App::PAUSE::cleanup, App::cpanoutdated, App::HTTPThis,
+    Module::Info, DBD::Mock and Const::Fast.
 
 0.7.0     2012-06-03 
-
-
  [ENHANCEMENTS]
  - add Method::Signature, App::GitGot, Carp::Always::Color,
     Set::CrossProduct, Algorithm:;Combinatorics
