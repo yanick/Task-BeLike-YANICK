@@ -25,10 +25,6 @@ To do that, do
 
 =over 
 
-=item L<Task::Kensho>
-
-Might not use'em all, but I want them all near me, just in case.
-
 =item L<Set::CrossProduct>
 
     my $iterator = Set::CrossProduct->new([
@@ -54,6 +50,10 @@ Permutations are fun!
 
 =item L<MooseX::Declare>
 
+=item L<MooseX::MungeHas>
+
+=item L<MooseX::SetOnce>
+
 =back
 
 =head2 XML Processing
@@ -75,11 +75,29 @@ Useful for quick'n'dirty XML creation or slurping.
 
 Can't leave out my baby, now, can I?
 
+=item L<Web::Query>
+
+jQuery-like manipulation of DOMs.
+
+=back
+
+=head2 File Processing
+
+=over
+
+=item L<Path::Tiny>
+
+=item L<File::Serialize>
+
 =back
 
 =head2 Applications
 
 =over
+
+=item L<App::PAUSE::cleanup>
+
+So very useful to keep your Schwartz factor low.
 
 =item L<App::GitGot>
 
@@ -106,6 +124,10 @@ Want to know where the module is?
 
 Muuuch better than via the PAUSE web interface.
 
+=item L<App::PAUSE::Comaint>
+
+Power, just like love, is for sharing.
+
 =back
 
 =head2 Web Development
@@ -113,6 +135,8 @@ Muuuch better than via the PAUSE web interface.
 =over
 
 =item L<Dancer>
+
+=item L<Dancer2>
 
 So you think you can dance?
 
@@ -126,11 +150,6 @@ So you think you can dance?
 =item L<HTML::Mason>
 
 My templating system of choice.
-
-=item L<Template>
-
-I prefer L<HTML::Mason>, but C<TT> is used in an awful lot 
-of applications.
 
 =item L<WWW::Mechanize>
 
@@ -176,7 +195,9 @@ have a database handy? No problem.
 
 =over
 
-=item L<Method::Signatures>
+=item L<Deve::Hide>
+
+When we have it, but need to pretend we don't.
 
 =item L<Carp::Always::Color>
 
