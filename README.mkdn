@@ -1,0 +1,320 @@
+# NAME
+
+Task::BeLike::YANICK - like Yanick? Be like Yanick!
+
+# VERSION
+
+version 0.9.0
+
+# SYNOPSIS
+
+```
+$ cpan Task::BeLike::YANICK
+```
+
+# DESCRIPTION
+
+This [Task](https://metacpan.org/pod/Task) module installs the modules that I use on
+a regular basis.
+
+Wait, there is more!
+It can also **update** the modules that I use on a regular basis!
+To do that, do
+
+```
+TASK_UPGRADE=1 cpan -f Task::BeLike::YANICK
+```
+
+# MODULES INSTALLED BY THIS TASK
+
+## General
+
+- [Set::CrossProduct](https://metacpan.org/pod/Set::CrossProduct)
+
+    ```perl
+    my $iterator = Set::CrossProduct->new([
+        [ a..z ],
+        [ 1..10 ],
+    ]);
+
+    while( my $i = $iterator->get ) {
+        print @$i;
+    }
+    ```
+
+- [Algorithm::Combinatorics](https://metacpan.org/pod/Algorithm::Combinatorics)
+
+    Permutations are fun!
+
+## Object-Oriented Frameworks
+
+- [Moose](https://metacpan.org/pod/Moose)
+- [MooseX::Declare](https://metacpan.org/pod/MooseX::Declare)
+- [MooseX::MungeHas](https://metacpan.org/pod/MooseX::MungeHas)
+- [MooseX::SetOnce](https://metacpan.org/pod/MooseX::SetOnce)
+
+## XML Processing
+
+- [XML::LibXML](https://metacpan.org/pod/XML::LibXML)
+- [XML::Writer](https://metacpan.org/pod/XML::Writer)
+
+    Because writing XML should be left to
+    professionals.
+
+- [XML::Simple](https://metacpan.org/pod/XML::Simple)
+
+    Useful for quick'n'dirty XML creation or slurping.
+
+- [XML::XPathScript](https://metacpan.org/pod/XML::XPathScript)
+
+    Can't leave out my baby, now, can I?
+
+- [Web::Query](https://metacpan.org/pod/Web::Query)
+
+    jQuery-like manipulation of DOMs.
+
+## File Processing
+
+- [Path::Tiny](https://metacpan.org/pod/Path::Tiny)
+- [File::Serialize](https://metacpan.org/pod/File::Serialize)
+
+## Applications
+
+- [PAUSE::Permissions](https://metacpan.org/pod/PAUSE::Permissions)
+
+    To know who is the author of a module:
+
+    ```perl
+    pause-permissions Foo
+    ```
+
+- [App::PAUSE::cleanup](https://metacpan.org/pod/App::PAUSE::cleanup)
+
+    So very useful to keep your Schwartz factor low.
+
+- [App::GitGot](https://metacpan.org/pod/App::GitGot)
+
+    Git repo herder.
+
+- [App::Ack](https://metacpan.org/pod/App::Ack)
+
+    `grep` is nice, but `ack` is just nicer.
+
+- [App::HTTPThis](https://metacpan.org/pod/App::HTTPThis)
+
+    Want to share a directory over http?
+
+    ```
+    $ cd /path/to/dir/we/wanna/share
+    $ http_this
+    ```
+
+- [Module::Info](https://metacpan.org/pod/Module::Info)
+
+    Want to know where the module is?
+
+    ```
+    module_info Task::BeLike::YANICK
+    ```
+
+- [App::PAUSE::cleanup](https://metacpan.org/pod/App::PAUSE::cleanup)
+
+    Muuuch better than via the PAUSE web interface.
+
+- [App::PAUSE::Comaint](https://metacpan.org/pod/App::PAUSE::Comaint)
+
+    Power, just like love, is for sharing.
+
+- [App::pretty](https://metacpan.org/pod/App::pretty)
+
+    Prints JSON/YAML structures in easier-on-the-eye tables.
+
+## Web Development
+
+- [Dancer](https://metacpan.org/pod/Dancer)
+- [Dancer2](https://metacpan.org/pod/Dancer2)
+
+    So you think you can dance?
+
+- [Dancer::Template::Mason](https://metacpan.org/pod/Dancer::Template::Mason)
+- [Dancer::Plugin::Cache::CHI](https://metacpan.org/pod/Dancer::Plugin::Cache::CHI)
+- [Catalyst::Runtime](https://metacpan.org/pod/Catalyst::Runtime)
+- [HTML::Mason](https://metacpan.org/pod/HTML::Mason)
+
+    My templating system of choice.
+
+- [WWW::Mechanize](https://metacpan.org/pod/WWW::Mechanize)
+
+    A must for testing and small web hacks.  Plus, this module name always
+    reminds me of _Battletech_.
+
+## Version Control Systems
+
+- [Git::CPAN::Patch](https://metacpan.org/pod/Git::CPAN::Patch)
+
+    Effortlessly import CPAN distros in a Git repository.
+
+## Testing
+
+- [Test::Class](https://metacpan.org/pod/Test::Class)
+
+    Add some class to your testing.
+
+- [Test::Perl::Critic](https://metacpan.org/pod/Test::Perl::Critic)
+- [Test::Perl::Critic::Progressive](https://metacpan.org/pod/Test::Perl::Critic::Progressive)
+
+    Raise the bar, millimeter by millimeter.
+
+- [DBD::Mock](https://metacpan.org/pod/DBD::Mock)
+
+    Want to test the logic of something connecting to a database, but don't
+    have a database handy? No problem.
+
+## Development
+
+- [Deve::Hide](https://metacpan.org/pod/Deve::Hide)
+
+    When we have it, but need to pretend we don't.
+
+- [Carp::Always::Color](https://metacpan.org/pod/Carp::Always::Color)
+
+    "You're going to tell me what you know. EVERYTHING you know..."
+
+    "...and you are going to tell me... IN COLORS!"
+
+- [autodie](https://metacpan.org/pod/autodie)
+
+    Because my minions should know that their missions should
+    always either end in success, or death...
+
+    Part of the core as of 5.10.1.
+
+- [Const::Fast](https://metacpan.org/pod/Const::Fast)
+
+    First, there was [constant](https://metacpan.org/pod/constant), then [Readonly](https://metacpan.org/pod/Readonly), and now [Const::Fast](https://metacpan.org/pod/Const::Fast).
+
+- [Perl::Tidy](https://metacpan.org/pod/Perl::Tidy)
+
+    Because tidy code is so easier to read.
+
+- [Perl::Critic](https://metacpan.org/pod/Perl::Critic)
+- [Module::Which](https://metacpan.org/pod/Module::Which)
+
+    Which version of _Foo::Bar_ am I running, and in which lib directory
+    is it hidding?
+
+- [Pod::POM::Web](https://metacpan.org/pod/Pod::POM::Web)
+
+    Because search.cpan.org doesn't deserved to be poked every
+    five minutes.
+
+## Databases
+
+- [DBIx::Class::Schema::Loader](https://metacpan.org/pod/DBIx::Class::Schema::Loader)
+
+    Use the database to create the schema.
+
+## CPAN
+
+- [lazy](https://metacpan.org/pod/lazy)
+
+    Install all the missing dependencies!
+
+    ```
+    perl -Mlazy foo.pl
+    ```
+
+- [App::cpanminus](https://metacpan.org/pod/App::cpanminus)
+
+    Slam, bang, thank you CPAN.
+
+- [CPAN::SQLite](https://metacpan.org/pod/CPAN::SQLite)
+
+    CPAN asks for it, so there it is.
+
+- [App::cpanoutdated](https://metacpan.org/pod/App::cpanoutdated)
+
+    ```
+    cpan-outdated | cpanm
+    ```
+
+- [File::ShareDir](https://metacpan.org/pod/File::ShareDir)
+
+    Interface to dist/module shared files.
+
+## Dist::Zilla
+
+- [Dist::Zilla](https://metacpan.org/pod/Dist::Zilla)
+
+    Rooooar!
+
+- [Dist::Zilla::PluginBundle::YANICK](https://metacpan.org/pod/Dist::Zilla::PluginBundle::YANICK)
+
+    One bundle to configure'em all...
+
+- [Dist::Zilla::Plugin::Git](https://metacpan.org/pod/Dist::Zilla::Plugin::Git)
+
+    Git-related Dist::Zilla actions.
+
+- [Dist::Zilla::Plugin::GithubMeta](https://metacpan.org/pod/Dist::Zilla::Plugin::GithubMeta)
+
+    Github actions.
+
+# AUTHOR
+
+Yanick Champoux, `<yanick at cpan.org>` [![endorse](http://api.coderwall.com/yanick/endorsecount.png)](http://coderwall.com/yanick)
+
+# BUGS
+
+Please report any bugs or feature requests to
+`bug-task-belike-yanick at rt.cpan.org`, or through the web
+interface at
+[http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-BeLike-YANICK](http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-BeLike-YANICK).
+I will be notified, and then you'll automatically be notified of
+progress on your bug as I make changes.
+
+# SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+```
+perldoc Task::BeLike::YANICK
+```
+
+You can also look for information at:
+
+- AnnoCPAN: Annotated CPAN documentation
+
+    [http://annocpan.org/dist/Task-BeLike-YANICK](http://annocpan.org/dist/Task-BeLike-YANICK)
+
+- CPAN Ratings
+
+    [http://cpanratings.perl.org/d/Task-BeLike-YANICK](http://cpanratings.perl.org/d/Task-BeLike-YANICK)
+
+- RT: CPAN's request tracker
+
+    [http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-BeLike-YANICK](http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-BeLike-YANICK)
+
+- Search CPAN
+
+    [http://search.cpan.org/dist/Task-BeLike-YANICK](http://search.cpan.org/dist/Task-BeLike-YANICK)
+
+# ACKNOWLEDGEMENTS
+
+# COPYRIGHT & LICENSE
+
+Copyright 2009 Yanick Champoux, all rights reserved.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+# AUTHOR
+
+Yanick Champoux <yanick@cpan.org> [![endorse](http://api.coderwall.com/yanick/endorsecount.png)](http://coderwall.com/yanick)
+
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2019, 2013, 2012, 2011, 2010, 2009 by Yanick Champoux.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
