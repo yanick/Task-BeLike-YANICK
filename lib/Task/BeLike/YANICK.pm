@@ -13,8 +13,8 @@ use strict;
 This L<Task> module installs the modules that I use on
 a regular basis.
 
-Wait, there is more! 
-It can also B<update> the modules that I use on a regular basis! 
+Wait, there is more!
+It can also B<update> the modules that I use on a regular basis!
 To do that, do
 
     TASK_UPGRADE=1 cpan -f Task::BeLike::YANICK
@@ -23,7 +23,7 @@ To do that, do
 
 =head2 General
 
-=over 
+=over
 
 =item L<Set::CrossProduct>
 
@@ -95,6 +95,12 @@ jQuery-like manipulation of DOMs.
 
 =over
 
+=item L<PAUSE::Permissions>
+
+To know who is the author of a module:
+
+    pause-permissions Foo
+
 =item L<App::PAUSE::cleanup>
 
 So very useful to keep your Schwartz factor low.
@@ -128,6 +134,10 @@ Muuuch better than via the PAUSE web interface.
 
 Power, just like love, is for sharing.
 
+=item L<App::pretty>
+
+Prints JSON/YAML structures in easier-on-the-eye tables.
+
 =back
 
 =head2 Web Development
@@ -153,7 +163,7 @@ My templating system of choice.
 
 =item L<WWW::Mechanize>
 
-A must for testing and small web hacks.  Plus, this module name always 
+A must for testing and small web hacks.  Plus, this module name always
 reminds me of I<Battletech>.
 
 
@@ -234,9 +244,26 @@ five minutes.
 
 =back
 
+=head2 Databases
+
+=over
+
+=item L<DBIx::Class::Schema::Loader>
+
+Use the database to create the schema.
+
+=back
+
 =head2 CPAN
 
 =over
+
+=item L<lazy>
+
+Install all the missing dependencies!
+
+    perl -Mlazy foo.pl
+
 
 =item L<App::cpanminus>
 
@@ -249,6 +276,10 @@ CPAN asks for it, so there it is.
 =item L<App::cpanoutdated>
 
     cpan-outdated | cpanm
+
+=item L<File::ShareDir>
+
+Interface to dist/module shared files.
 
 =back
 
